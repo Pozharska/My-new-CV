@@ -3,116 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <title>Halyna Shatokhina CV</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <img src="Avatar.jpeg" width="250" alt="Мій фото аватар" />
-    <h1>Name:</h1>
-    <p>Halyna</p>
+    <div class="container">
+      <div class="info">
+        <img src="Avatar.jpeg" alt="Мій фото аватар" class="avatar" />
 
-    <h1>Surname:</h1>
-    <p>Shatokhina</p>
+        <div class="info-text">
+          <h1>Halyna Shatokhina</h1>
+          <p><strong>29 years old</strong></p>
+          <h4>My social networks:</h4>
+          <a href="https://www.instagram.com/halynapozharska/" target="_blank"
+            >Instagram</a
+          >
+          |
+          <a href="https://t.me/pozharskahalyna" target="_blank">Telegram</a>
+        </div>
+      </div>
 
-    <h1>Age:</h1>
-    <p>29 years old</p>
+      <div class="card bg-brown">
+        <h2>Experience in programming:</h2>
+        <p2>Beginner. I am coding in HTML, CSS</p2>
+      </div>
 
-    <hr />
+      <div class="card bg-brown">
+        <h2>About me:</h2>
+        <ul class="list">
+          <li>
+            Studied at the University named V.I.Vernadskyi in 2013-2016,
+            bachelor's degree in Political Science.
+          </li>
+          <li>
+            I have experience in the medical field, such as dentistry from 2019
+            to 2024 - administrator and curator of treatment (individual
+            approach to patients).
+          </li>
+          <li>
+            Before that, from 2016 to 2017, general medicine - worked as a
+            senior administrator and SMM of social networks and the company
+            website.
+          </li>
+        </ul>
+      </div>
 
-    <h1>Experience in programming:</h1>
-    <p>Beginner. I am coding in HTML, CSS</p>
+      <div class="card bg-brown">
+        <h2>My learning goals:</h2>
+        <ul class="list">
+          <li>
+            Today, I want to learn a programming language such as Java Script
+            and complete my first project.
+          </li>
+        </ul>
+      </div>
 
-    <hr />
+      <div class="card bg-brown">
+        <h2>My hobbies:</h2>
+        <ul class="list">
+          <li>Books</li>
+          <li>Write poems</li>
+          <li>Keeping a personal blog</li>
+        </ul>
+      </div>
 
-    <h1>About me:</h1>
+      <div class="card bg-brown">
+        <h2>Work experience:</h2>
+        <table class="table">
+          <tr>
+            <td>Medical Clinic "Gemokod+"</td>
+            <td>Senior administrator and SMM of social networks</td>
+            <td>2016-2017</td>
+          </tr>
+          <tr>
+            <td>Dental clinic "Sa-Nata"</td>
+            <td>Reception administrator</td>
+            <td>2019-2020</td>
+          </tr>
+          <tr>
+            <td>Dental clinic "Dent Art"</td>
+            <td>Administrator and curator of treatment</td>
+            <td>2021-2024</td>
+          </tr>
+        </table>
+      </div>
 
-    <ul>
-      <li>
-        Studied at the University named V.I.Vernadskyi in 2013-2016, bachelor's
-        degree in Political Science.
-      </li>
-      <li>
-        I have experience in the medical field, such as dentistry from 2019 to
-        2024 - administrator and curator of treatment (individual approach to
-        patients).
-      </li>
-      <li>
-        Before that, from 2016 to 2017, general medicine - worked as a senior
-        administrator and SMM of social networks and the company website.
-      </li>
-    </ul>
+      <div class="contact">
+        <h2>Contact me!</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Your name:</label>
+              <input type="text" id="name" placeholder="Write your name" />
+            </div>
 
-    <h2>My learning goals</h2>
-    <ul>
-      <li>
-        Today, I want to learn a programming language such as Java Script and
-        complete my first project.
-      </li>
-    </ul>
+            <div class="form-group">
+              <label for="email">Your email:</label>
+              <input type="email" id="email" placeholder="Write your email" />
+            </div>
+          </div>
 
-    <h2>My hobbies</h2>
-    <ul>
-      <li>Books</li>
-      <li>Write poems</li>
-      <li>Keeping a personal blog</li>
-    </ul>
+          <div class="form-group">
+            <label for="text"></label>
+            <textarea
+              id="text"
+              placeholder="Write your message"
+              rows="5"
+              cols="25"
+            ></textarea>
+          </div>
 
-    <h2>My social networks</h2>
-    <ul>
-      <li>
-        <a href="https://www.instagram.com/halynapozharska/" target="_blank"
-          >Instagram</a
-        >
-      </li>
-      <li>
-        <a href="https://t.me/pozharskahalyna" target="_blank">Telegram</a>
-      </li>
-    </ul>
+          <input class="btn" type="submit" value="Send a message" />
+        </form>
+      </div>
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
 
-    <hr />
-
-    <h2>Work experience</h2>
-    <table cellspacing="25">
-      <tr>
-        <th>Company</th>
-        <th>Position</th>
-        <th>Years</th>
-      </tr>
-      <tr>
-        <td>Medical Clinics "Gemokod+"</td>
-        <td>Senior administrator and SMM of social networks</td>
-        <td>2016-2017</td>
-      </tr>
-      <tr>
-        <td>Dental clinic "Sa-Nata"</td>
-        <td>Reception administrator</td>
-        <td>2019-2020</td>
-      </tr>
-      <tr>
-        <td>Dental clinic "Dent Art"</td>
-        <td>Administrator and curator of treatment</td>
-        <td>2021-2024</td>
-      </tr>
-    </table>
-
-    <h2>Contact me!</h2>
-    <form action="form-action.html">
-      <label for="name">Your name:</label>
-      <input type="text" id="name" placeholder="Your name" />
-
-      <br />
-
-      <label for="email">Your Email:</label>
-      <input type="email" id="email" placeholder="Your Email" />
-
-      <br />
-
-      <label for="text">Your message:</label>
-
-      <br />
-
-      <textarea id="text" rows="5" cols="25"></textarea>
-      <br />
-
-      <input type="submit" value="Send a message" />
-    </form>
+    <div style="margin-bottom: 500px"></div>
   </body>
 </html>
